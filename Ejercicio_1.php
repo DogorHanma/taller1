@@ -26,8 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <h1>Menu de acciones</h1>
         <nav>
             <ul>
-                <li><a href="Ejercicio_1.php">Punto 1</a></li>
-                <li><a href="p2.php">Punto 2</a></li>
+                <li><a href="Ejercicio_1.php">Ejercicio 1</a></li>
+                <li><a href="Ejercicio_2.php">Ejercicio 2</a></li>
                 <li><a href="p3.php">Punto 3</a></li>
                 <li><a href="p4.php">Punto 4</a></li>
                 <li><a href="p5.php">Punto 5</a></li>

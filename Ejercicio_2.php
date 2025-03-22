@@ -36,6 +36,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Calculadora Serie De Fibonacci / Factorial</title>
 </head>
 <body>
+<header>
+    <h1>Menu de acciones</h1>
+        <nav>
+            <ul>
+                <li><a href="Ejercicio_1.php">Ejercicio 1</a></li>
+                <li><a href="Ejercicio_2.php">Ejercicio 2</a></li>
+                <li><a href="p3.php">Punto 3</a></li>
+                <li><a href="p4.php">Punto 4</a></li>
+                <li><a href="p5.php">Punto 5</a></li>
+            </ul>
+        </nav>
+    </header>
     <h2>Calculadora Serie De Fibonacci / Factorial</h2>
     <form method="post">
         <label for="number">Ingrese un número:</label>
