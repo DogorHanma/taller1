@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generador de Acrónimos</title>
+    <link rel="stylesheet" href="recursos/Ejercicio_1.css">
 </head>
 <body>
     <header>
@@ -28,16 +29,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <ul>
                 <li><a href="Ejercicio_1.php">Ejercicio 1</a></li>
                 <li><a href="Ejercicio_2.php">Ejercicio 2</a></li>
-                <li><a href="p3.php">Punto 3</a></li>
-                <li><a href="p4.php">Punto 4</a></li>
-                <li><a href="p5.php">Punto 5</a></li>
+                <li><a href="Ejercicio_3.php">Ejercicio 3</a></li>
+                <li><a href="Ejercicio_4.php">Ejercicio 4</a></li>
+                <li><a href="Ejercicio_5.php">Ejercicio 5</a></li>
+                <li><a href="Ejercicio_6.php">Ejercicio 6</a></li>
             </ul>
         </nav>
     </header>
     <h2>Generador de Acrónimos</h2>
     <form method="post">
         <label for="frase">Ingrese una frase:</label>
-        <input type="text" id="frase" name="frase" required>
+        <input type="text" id="frase" name="frase" required> 
         <button type="submit">Convertir</button>
     </form>
     
